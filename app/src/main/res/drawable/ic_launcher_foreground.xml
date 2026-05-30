@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle for visual depth inside launcher cutout -->
+    <path
+        android:fillColor="#1B3F33"
+        android:pathData="M54,14 A40,40 0 1,0 54,94 A40,40 0 1,0 54,14 Z" />
+
+    <!-- Left Pin: Google Blue marker -->
+    <path
+        android:fillColor="#4285F4"
+        android:pathData="M34,35c-6.6,0 -12,5.4 -12,12c0,6.5 10.1,19 11.2,20.3c0.4,0.5 1.1,0.5 1.5,0c1.1,-1.3 11.2,-13.8 11.2,-20.3c0,-6.6 -5.4,-12 -12,-12zm0,16c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4s4,1.8 4,4s-1.8,4 -4,4z" />
+        
+    <!-- Right Pin: Naver Green marker -->
+    <path
+        android:fillColor="#03C75A"
+        android:pathData="M74,35c-6.6,0 -12,5.4 -12,12c0,6.5 10.1,19 11.2,20.3c0.4,0.5 1.1,0.5 1.5,0c1.1,-1.3 11.2,-13.8 11.2,-20.3c0,-6.6 -5.4,-12 -12,-12zm0,16c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4s4,1.8 4,4s-1.8,4 -4,4z" />
+
+    <!-- Connecting Bridge: Elegant curved dashed transition -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 38 42 C 46 28, 62 28, 70 42" />
+        
+    <!-- Arrow tip targeting right pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 72 40 L 74 34 L 68 36 Z" />
+        
+</vector>
