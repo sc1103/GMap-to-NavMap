@@ -1,5 +1,5 @@
 {
-  "name": "G-to-Naver Map",
+  "name": "GMap to NavMap",
   "description": "A travel helper to instantly jump from a shared Google Maps location to Naver Map for real-time South Korea navigation.",
   "requestFramePermissions": [],
   "majorCapabilities": [
