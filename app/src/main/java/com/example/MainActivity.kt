@@ -18,6 +18,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.automirrored.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -75,7 +76,7 @@ class MainActivity : ComponentActivity() {
                                         fontSize = 18.sp
                                     )
                                     Icon(
-                                        imageVector = Icons.Default.ArrowForward,
+                                        imageVector = Icons.AutoMirrored.Filled.ArrowForward,
                                         contentDescription = "to",
                                         tint = MaterialTheme.colorScheme.onSurfaceVariant,
                                         modifier = Modifier.padding(horizontal = 6.dp).size(16.dp)
@@ -557,7 +558,7 @@ fun MainScreen(viewModel: MainViewModel, modifier: Modifier = Modifier) {
                                         contentPadding = PaddingValues(vertical = 10.dp)
                                     ) {
                                         Icon(
-                                            imageVector = Icons.Default.List,
+                                            imageVector = Icons.AutoMirrored.Filled.List,
                                             contentDescription = null,
                                             modifier = Modifier.size(16.dp)
                                         )
